@@ -32,9 +32,14 @@ The last concept I was able to learn was constructing pair plots and heatmaps.  
 ![pairplot](https://user-images.githubusercontent.com/34482822/34427900-22a7b78e-ec15-11e7-9428-70f3a0a59cc9.png)
 
 ## Heat Maps
+On the chart above each dot represents a piece of data.  For instance if we look at the graph in the bottom left corner it compares the critic score (x axis) to Japan’s sales (y axis).  Let’s take a look at the game Wii Sports:
 
 
+![screen shot 2017-12-28 at 9 40 17 pm](https://user-images.githubusercontent.com/34482822/34428157-d04994a0-ec17-11e7-8665-b9ed12e1c8c9.png)
 
+For this specific example we would graph Wii Sports in the bottom left corner at (76.0,3.77).  Plotting all of these points will reveal if two variables have a positive, negative or no correlation.  A heat map will read the correlation between two variables and assign it a value.  The higher the value the greater the correlation between two numbers. 
+
+![heat map](https://user-images.githubusercontent.com/34482822/34428192-30a435d0-ec18-11e7-91c9-0b20c6f363e1.png)
 
 
 
