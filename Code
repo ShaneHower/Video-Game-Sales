@@ -37,9 +37,6 @@ plt.xlabel('Sales')
 plt.tight_layout()
 plt.show()
 
-plt.axis([0,10,0,1000]) #x1, x2, y1, y2
-plt.suptitle('Global Sales by Genre')
-print(df.describe().transpose())
 
 d1 = ['Critic_Score', 'User_Score','Global_Sales','EU_Sales','JP_Sales']
 sns.pairplot(df[d1], diag_kind="kde") #creates a pairplot
