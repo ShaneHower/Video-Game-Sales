@@ -1,11 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-import scipy.stats as stats
 import seaborn as sns
-from matplotlib import rcParams
 
-sns.set() #sets the style of plots to be seaborn
 
 df = pd.read_csv('/Users/shanehower/Desktop/vgd.csv' )
 df['Critic_Score'] = df['Critic_Score'].fillna(0)
