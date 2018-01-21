@@ -16,7 +16,6 @@ df['Rating'] = df['Rating'].fillna(0)
 df['Year_of_Release'] = df['Year_of_Release'].fillna(0)
 df.describe()[["NA_Sales", "EU_Sales", "JP_Sales", "Other_Sales", "Global_Sales"]]
 df
-df= df.dropna(subset = ['Critic_Score', 'Critic_Count', 'User_Score', 'User_Count','Rating','Year_of_Release'])
 
 #group data by Genre and fine the mean sales of each genre
 x1= df.groupby(['Genre'])
